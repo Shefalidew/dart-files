@@ -1,9 +1,9 @@
 class Person{
   String name;
   int age;
-  Person(String inputName, int inputAge){
+  Person(String inputName, int age){
   name = inputName;
-  age = inputAge;
+  this.age = age;
   }
 }
 
