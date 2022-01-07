@@ -1,6 +1,10 @@
 class Person{
   String name;
   int age;
+  Person(String inputName, int inputAge){
+  name = inputName;
+  age = inputAge;
+  }
 }
 
 double addNumbers(double num1, double num2){
