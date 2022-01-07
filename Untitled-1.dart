@@ -1,9 +1,8 @@
 class Person{
   String name;
   int age;
-  Person({@required String inputName, int age = 30}){
+  Person({@required String inputName, this.age = 30}){
   name = inputName;
-  this.age = age;
   }
 }
 
